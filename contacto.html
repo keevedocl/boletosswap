@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Contacto - Boletos Swap</title>
+</head>
+<body>
+  <section class="form-register">
+    <h4>Contacto Boletos Swap</h4>
+    <form action="enviar_correo.php" method="post"> <!-- El formulario se enviará a enviar_correo.php -->
+      <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre y apellido:">
+      <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo:">
+      <textarea class="controls" name="mensaje" id="mensaje" placeholder="Ingrese su Mensaje:"></textarea> <!-- Cambié el tipo de entrada a un textarea para el mensaje -->
+      <input class="botons" type="submit" value="Enviar">
+    </form>
+  </section>
+</body>
+</html>
